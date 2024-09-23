@@ -24,6 +24,20 @@ function isOdd(number) {
 
 
 // . Write a function to count the number of vowels in a string.
+function countVowels(str) {
+    const lowerCaseStr = str.toLowerCase();
+    // because we set the vowels as a lowerCase in vowels variable
+    const vowels = 'aeiou';
+    let count = 0;
+    for (let char of lowerCaseStr) {
+        if (vowels.includes(char)) {
+            count++;
+        }
+    }
+    return count;
+}
+
+
 
 
 
