@@ -65,6 +65,21 @@ function findMax(arr) {
     return max;
 }
 
+// . Write a JavaScript while loop that calculates the factorial of a 
+// number.
+function factorialize(num) {
+    let result = 1;
+    while (num > 1) {
+        result *= num;
+        num--;
+    }
+    return result;
+}
+
+
+
+
+
 
 
 
