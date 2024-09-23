@@ -20,7 +20,7 @@ function isEven(number) {
 function isOdd(number) {
     return !isEven(number);
 }
-// i can write a similar function to check it but this time i give help from CHATgPT
+// i can write a similar function to check it but this time i  write this code bu using chat-gpt
 
 
 // . Write a function to count the number of vowels in a string.
@@ -36,6 +36,25 @@ function countVowels(str) {
     }
     return count;
 }
+
+// . Write a function to check if a string is a palindrome.
+function isPalindrome(str) {
+    // Check if the input is a string
+    if (typeof str !== 'string' || str.length === 0) {
+        return false;
+    }
+    // Remove non-alphanumeric characters and convert to lowercase
+    const cleanStr = str.replace(/[^a-z0-9]/gi, '').toLowerCase();
+
+    // Compare the cleaned string with its reverse
+    return cleanStr === cleanStr.split('').reverse().join('');
+}
+// also i write this code bu using chat-gpt
+
+
+
+
+
 
 
 
