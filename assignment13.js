@@ -76,6 +76,15 @@ function factorialize(num) {
     return result;
 }
 
+// . Write a function to reverse a string in JavaScript.
+function reverseString(str) {
+    if (!str || typeof str !== 'string') {
+        console.log("Input must be a string");
+    }
+    return [...str].reverse().join('');
+}
+
+
 
 
 
