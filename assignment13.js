@@ -4,3 +4,31 @@
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
+
+// write a function to check if a number is even or odd in 
+// JavaScript.
+
+function isEven(number) {
+    // Check if the input is a number
+    if (typeof number !== 'number') {
+        throw new Error('Input must be a number');
+    }
+    // Return true if the remainder when divided by 2 is 0
+    return number % 2 === 0;
+}
+// Helper function to check if a number is odd
+function isOdd(number) {
+    return !isEven(number);
+}
+// i can write a similar function to check it but this time i give help from CHATgPT
+
+
+// . Write a function to count the number of vowels in a string.
+
+
+
+
+
+
+
+
